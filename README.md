@@ -1,16 +1,16 @@
-Vertex AI Agents – Technical Lab Series (Day 1–4)
+**Vertex AI Agents – Technical Lab Series (Day 1–4)**
 
 This repository documents an end-to-end exploration of Google Cloud Vertex AI Agent Engine, focusing on architecture, design patterns, operational reliability, tooling ecosystems, memory systems, observability, and evaluation frameworks for production-grade agentic systems.
 
 The notebooks collectively represent the full lifecycle of an agentic AI platform—from prompt-level execution to structured multi-agent orchestration, tool-based action pipelines, context persistence, monitoring, and performance evaluation.
 
-📚 Repository Breakdown by Technical Theme
-Day 1 – Core Agent Architecture
-1. day-1a-from-prompt-to-action.ipynb
+**Repository Breakdown by Technical Theme**
+**Day 1 – Core Agent Architecture**
+**1. day-1a-from-prompt-to-action.ipynb**
 
 Covers architectural fundamentals: how natural language is transformed into structured agent actions through Vertex AI’s orchestration layer. Includes initialization flows, configuration layers, and agent–model interaction surfaces.
 
-2. day-1b-agent-architectures.ipynb
+**2. day-1b-agent-architectures.ipynb**
 
 Examines multi-layer agent architectures:
 
@@ -24,8 +24,8 @@ Event-driven interaction models
 
 Deployment model considerations across regions
 
-Day 2 – Tooling Framework & Execution Pipeline
-3. day-2a-agent-tools.ipynb
+**Day 2 – Tooling Framework & Execution Pipeline
+3. day-2a-agent-tools.ipynb**
 
 Technical overview of the Agent Tools Framework, including:
 
@@ -39,7 +39,7 @@ Tool orchestration graphs and multi-hop reasoning
 
 Abstraction boundaries between LLM reasoning and deterministic tool execution
 
-4. day-2b-agent-tools-best-practices.ipynb
+**4. day-2b-agent-tools-best-practices.ipynb**
 
 Engineering-focused best practices:
 
@@ -55,8 +55,8 @@ Failure mode analysis and retry strategies
 
 Tool latency optimization and execution cost modeling
 
-Day 3 – Stateful Agents: Sessions & Memory
-5. day-3a-agent-sessions.ipynb
+**Day 3 – Stateful Agents: Sessions & Memory
+5. day-3a-agent-sessions.ipynb**
 
 Explores session-oriented state machines:
 
@@ -70,7 +70,7 @@ Lifecycle considerations for long-running sessions
 
 Architectural patterns for multi-user, multi-session environments
 
-6. day-3b-agent-memory.ipynb
+**6. day-3b-agent-memory.ipynb**
 
 Deep-dive into memory architecture:
 
@@ -86,8 +86,8 @@ Trade-offs between memory richness, performance, and safety
 
 Failover logic for missing or inconsistent memory states
 
-Day 4 – Observability & Evaluation for Production
-7. day-4a-agent-observability.ipynb
+**Day 4 – Observability & Evaluation for Production
+7. day-4a-agent-observability.ipynb**
 
 Covers operational observability components:
 
@@ -103,7 +103,7 @@ Agent performance dashboards
 
 Production monitoring and alerting strategies
 
-8. day-4b-agent-evaluation.ipynb
+**8. day-4b-agent-evaluation.ipynb**
 
 Examines evaluation frameworks for agent reliability:
 
@@ -119,8 +119,8 @@ A/B testing between agent versions
 
 Continuous evaluation workflows integrated into CI/CD pipelines
 
-🏗️ End-to-End System Architecture (High-Level)
-1. Front-End / Client Layer
+**End-to-End System Architecture (High-Level)**
+**1. Front-End / Client Layer****
 
 Accepts user prompts
 
@@ -130,7 +130,7 @@ Initiates or continues sessions
 
 Invokes agent endpoints via synchronous or streaming API calls
 
-2. Vertex AI Agent Engine
+**2. Vertex AI Agent Engine**
 
 Serves as the orchestration layer
 
@@ -144,7 +144,7 @@ Maintains context across turns
 
 Connects memory modules and tools
 
-3. Tool Execution Layer
+**3. Tool Execution Layer**
 
 Handles deterministic computations
 
@@ -154,7 +154,7 @@ Performs validation or structured processing
 
 Provides reliable results back to the agent engine
 
-4. Memory Subsystem
+**4. Memory Subsystem**
 
 Short-term conversational context
 
@@ -166,7 +166,7 @@ Retrieval and relevance-ranking layer
 
 Embedding and semantic indexing
 
-5. Observability Pipeline
+**5. Observability Pipeline**
 
 Centralized logs and traces
 
@@ -178,7 +178,7 @@ Error propagation metrics
 
 Decision-tree and reasoning-chain visibility
 
-6. Evaluation and Quality System
+**6. Evaluation and Quality System**
 
 Scenario datasets
 
@@ -190,9 +190,8 @@ Comparative evaluation across agent versions
 
 Continuous feedback loop into development
 
-🎯 Technical Capabilities Demonstrated in This Repository
-Architectural Design
-
+🎯**Technical Capabilities Demonstrated in This Repository
+Architectural Design**
 Understanding of multi-component agentic systems
 
 Clear differentiation between reasoning and execution planes
@@ -223,7 +222,7 @@ Designing reproducible, systematic evaluation pipelines
 
 Identifying failure patterns and optimization opportunities
 
-🛠 Technology Stack
+🛠**Technology Stack**
 
 Google Cloud Vertex AI / Agent Engine
 
@@ -237,7 +236,7 @@ Python / Jupyter Notebooks
 
 Cloud-based deployment and monitoring stack
 
-📌 Purpose of This Repository (Technical Focus)
+ **Purpose of This Repository (Technical Focus)**
 
 This repository demonstrates applied proficiency in:
 
@@ -253,7 +252,7 @@ Implementing observability and evaluation pipelines essential for production rel
 
 It is intended for engineering review, AI architecture evaluation, and as technical portfolio evidence of hands-on capability with modern agentic AI frameworks.
 
-📄 License
+📄**License**
 
 MIT License.
 
